@@ -11,7 +11,7 @@ Load the Indoor Locationing Dataset (http://archive.ics.uci.edu/ml/datasets/UJII
 ### Getting familiar with the topic
 To understand what the attributes are and what they mean helps revising the approach of this task, and leads to some suggestions of how to simplify the problem.
 
-<img src="/images/3D%20indoor%20training.png"  width="240" height="240">
+<img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
 
 ### Performing EDA
 perform some preliminary exploration as part of your familiarization process.
