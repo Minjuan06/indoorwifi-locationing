@@ -35,7 +35,7 @@ Preliminary exploration was performed as part of familiarization process.
 
 **3D-mapping the footprints**
 
-<img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_train.png"  width="240" height="200">   <img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_valid.png"  width="240" height="200"> 
+<img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_train.png"  width="240" height="190">   <img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_valid.png"  width="240" height="190"> 
 
 <img src="/images/Frequency%20of%20occurence%20of%20WAPs%20both%20dt.png"  width="340" height="200"> 
 
