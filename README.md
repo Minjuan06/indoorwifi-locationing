@@ -37,7 +37,7 @@ Preliminary exploration was performed as part of familiarization process.
 
 <img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_train.png"  width="240" height="200">   <img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_valid.png"  width="240" height="200">   <img src="/images/Frequency%20of%20occurence%20of%20WAPs%20both%20dt.png"  width="300" height="200"> 
 
-**the distribution and occurrences of WAPs**
+**The distribution and occurrences of WAPs**
 
 <img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
 
