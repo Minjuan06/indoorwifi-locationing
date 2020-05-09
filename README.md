@@ -8,10 +8,18 @@ This task also includes evaluations of multiple machine learning models to see w
 ## Loading the data and performing EDA
 Load the Indoor Locationing Dataset (http://archive.ics.uci.edu/ml/datasets/UJIIndoorLoc) into RStudio and study the data documentation. 
 
+#### Map of the UJI Riu Sec Campus where wifi signals were collected
+
+<img src="/images/Buildings_Wifi%20signals%20collected%20from"  width="360" height="360">
+
+<img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
+
+
+
 ### Getting familiar with the topic
 To understand what the attributes are and what they mean helps revising the approach of this task, and leads to some suggestions of how to simplify the problem.
 
-<img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
+
 
 ### Performing EDA
 perform some preliminary exploration as part of your familiarization process.
