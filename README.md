@@ -1,22 +1,37 @@
-# indoorwifi-locationing
+# Introduction
+
 This project has the purpose to assist developing a system to be deployed on large industrial campuses, in shopping malls, et cetera to help people to navigate a complex, unfamiliar interior space without getting lost. While GPS works fairly reliably outdoors, it generally doesn't work indoors, so a different technology is necessary. 
 
 The feasibility of using "wifi fingerprinting" is investigated to determine a person's location in indoor spaces. Wifi fingerprinting uses the signals from multiple wifi hotspots within the building to determine location, analogously to how GPS uses satellite signals. We have been provided with a large database of wifi fingerprints for a multi-building industrial campus with a location (building, floor, and location ID) associated with each fingerprint. 
 
-This task also includes evaluations of multiple machine learning models to see which produces the best result.
+This task also includes evaluations of multiple machine learning models to evaluate which produces the best result.
 
-## Loading the data and performing EDA
+## 1. Loading the data
 Load the Indoor Locationing Dataset (http://archive.ics.uci.edu/ml/datasets/UJIIndoorLoc) into RStudio and study the data documentation. 
+
+**Dataset Info**
+- This UJIIndoorLoc database was stored in UCI machining learning Repository.
+- The database covers three buildings of Universitat Jaume I with 4 or more floors and almost 110m2 in Valencia, Spain. It was created in 2013 by means of more than 20 different users and 25 Android devices.
+- We have been provided with a large database of wifi fingerprints for a multi-building industrial campus with a location (building, floor, and location ID) associated with each fingerprint.
+- The database consists of 19937 training records and 1111 validation/test records.
+
+**Attributes include:**
+
+- WAP001- WAP520: Intensity value for WAP. Negative integer values from -104 to 0 and +100. Positive value 100 used if any WAP was not detected.
+- 9 Position-related attributes:
+- FLOOR, BUILDINGID, SPACEID, RELATIVEPOSITION
+- LONGITUDE, LATITUDE
+- USERID, PHONEID, TIMESTAMP
 
 ##### Map of the UJI Riu Sec Campus where wifi signals were collected
 
 <img src="/images/Buildings_Wifi%20signals%20collected%20from.png"  width="80%" height="80%">
 
+
 <img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
 
 
-
-### Getting familiar with the topic
+## 2. Getting familiar with the topic
 To understand what the attributes are and what they mean helps revising the approach of this task, and leads to some suggestions of how to simplify the problem.
 
 
