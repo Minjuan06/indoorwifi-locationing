@@ -44,15 +44,23 @@ Preliminary exploration was performed as part of familiarization process.
 <img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
 
 
-### Data cleaning
+### 2. Data cleaning
+A few actions have been taken in terms of data cleaning and transformation:
 
-### Decision on ML approach - classificaiton or regression?
-After becoming familiar with the data, (re)formalize the process via which you will use the provided data to construct machine learning models for predicting location in the validation dataset. You will need to decide if this problem is best-solved using classification or another approach.
+- remove duplicate (non-unique) observations 
+- the training and validation data sets were combined together to speed up the transformation process
+- change certain variables'data type to appropriate ones
+- change the value of RSSI = 100 to -110
+- remove those "near-zero variance" predictors and registers (including those columns that contain only constants and rows with no variance)
+- remove variables that have little values in terms of validating models/data
+- split data before modelling
 
-TIP:
-The dataset is very large, so a key part of your process might involve defining an approach to sampling the data. There are, at least, two possibilities: (1) Restrict the models to fewer buildings or even individual buildings or (2) Use a reasonable random sample of the data.
 
-TIP:
-You will quite probably want to devise a single unique identifier for each location in the dataset or your sample(s). Think about how best to combine the building, floor, and specific location attributes into a single unique identifier for each instance. Also think about the appropriate type for this "composite" attribute: Should it be numeric, a factor, or something else? Convert the composite location attribute if appropriate.
+### 3. Decision on ML approach - classificaiton or regression?
+
+The dataset is very large, so a key part of the process involves defining an approach to sampling the data. Decisions were made to use:
+
+- classification models to predict building numbers
+- regression models to predict floor, longitude and latitude values
 
 After revisiting and revising your process, you will build and test a range potential models that could work to find the location value you are required to find. As the data analyst you will need to make principled choices based on your past experiences. Potential candidates could include C5.0, SVM/SVR, KNN, LM, Model Trees, RandomForest, etc. but you will make the choices; be prepared to justify your decision, if asked. You must test at least three algorithms.
