@@ -114,7 +114,8 @@ Random Forest regression algorithm and KNN regression algorithm were deployed in
 
 **Predicted vs. Actual Longitude Values - Random Forest Algorithm (BLD0, BLD1, BLD2)**
 
-<img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%202.png"  width="30%" height="30%">  
+<img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%202.png"  width="30%" height="30%">  
 
 
-
+RF nolat Predicted vs. Actual - Longitude in Building 2
+RF nolat Predicted vs. Actual - Longitude in Building 1
