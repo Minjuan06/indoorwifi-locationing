@@ -110,12 +110,24 @@ Further investigation should be taken in understanding why the prediction of flo
 
 Random Forest regression algorithm and KNN regression algorithm were deployed in predicting latitude and longitude values. In an earlier attempt, both variables were included in the training and the validation dataset. When examining the variable importance, both variables ranked as the most important variable when predicting the other. Given the context that this task is to predict latitude/longitude in neighboring buildings, each latitude value has only a relatively small range of longitude values. This may lead to the high importance score they appear to each other. Therefore, latitude and longitude values were taken out in predicting longitude and latitude. 
 
-#### 6.1 Random Forest - predicting longitude and latitude 
+#### 6.1 Random Forest - predicting longitude 
 
 **Predicted vs. Actual Longitude Values - Random Forest Algorithm (BLD0, BLD1, BLD2)**
 
 <img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%202.png"  width="30%" height="30%">  
 
+**List of important variables in predicting longitude values (Random Forest)**
 
-RF nolat Predicted vs. Actual - Longitude in Building 2
-RF nolat Predicted vs. Actual - Longitude in Building 1
+<img src="/images/LON_BLD0_RF_nolat.png"  width="30%" height="30%">  <img src="/images/LONPredict_BLD1_RF_nolat.png"  width="30%" height="30%">  <img src="/images/LONPredict_BLD2_RF_nolat.png"  width="30%" height="30%">
+
+
+#### 6.2 Random Forest - predicting latitude 
+
+**Predicted vs. Actual Longitude Values - Random Forest Algorithm (BLD0, BLD1, BLD2)**
+
+<img src="/images/RF%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/RF%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/RF%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%202.png"  width="30%" height="30%">  
+
+
+**List of important variables in predicting latitude values (Random Forest)**
+
+<img src="/images/LATPredict_BLD0_RF_nolon.png"  width="30%" height="30%">  <img src="/images/LLATPredict_BLD1_RF_nolon.png"  width="30%" height="30%">  <img src="/images/LATPredict_BLD2_RF_nolon.png"  width="30%" height="30%">
