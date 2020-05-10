@@ -162,9 +162,9 @@ The algorithm to be best for this data: Random Forest.
 - Random forest algorithm performed better in terms of accuracy and errors: 
     * less false prediction in floor numbers
     * latitude and longitude “combined” MAEs
-    <img src="/images/LAT_LON_combinedMAE.png"  width="100%" height="100%">
+    <img src="/images/LAT_LON_combinedMAE.png"  width="40%" height="40%">
 
-- Im terms of running time: 
+- In terms of running time: 
     * KNN was in general faster – when RF models took on average 30mins above to run each one, KNN needed 15-30 mins to run. 
 some specific models were super faster and only took a few seconds to get results.
 In addition, RF's mtry were set to be around 160 and 200 when predicting latitude and longitude with Random Forest regression, which could lead to model overfit – this should be investigated when time allows. 
