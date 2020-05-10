@@ -92,7 +92,7 @@ Random Forest and KNN algorithms have been employed in predicting floor numbers.
 
 <img src="/images/CM%20-%20prediction%20of%20floors%20with%20all%20buildings.png"  width="30%" height="30%"> 
 
-
+Further investigation should be taken in understanding why the prediction of floor numbers in Building 1 has much worse results than those in the other two buildings. 
 
 **Confusion matrices of predicting floor numbers - using KNN**
 
@@ -108,4 +108,13 @@ Random Forest and KNN algorithms have been employed in predicting floor numbers.
 
 ### 6. Predicting latitude and longitude values
 
-Regression models, 
+Random Forest regression algorithm and KNN regression algorithm were deployed in predicting latitude and longitude values. In an earlier attempt, both variables were included in the training and the validation dataset. When examining the variable importance, both variables ranked as the most important variable when predicting the other. Given the context that this task is to predict latitude/longitude in neighboring buildings, each latitude value has only a relatively small range of longitude values. This may lead to the high importance score they appear to each other. Therefore, latitude and longitude values were taken out in predicting longitude and latitude. 
+
+#### 6.1 Random Forest - predicting longitude and latitude 
+
+**Predicted vs. Actual Longitude Values - Random Forest Algorithm (BLD0, BLD1, BLD2)**
+
+<img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/RF%20nolat%20predicted%20vs.%20actual%20Longitude%20in%20Building%202.png"  width="30%" height="30%">  
+
+
+
