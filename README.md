@@ -110,6 +110,9 @@ Further investigation should be taken in understanding why the prediction of flo
 
 Random Forest regression algorithm and KNN regression algorithm were deployed in predicting latitude and longitude values. In an earlier attempt, both variables were included in the training and the validation dataset. When examining the variable importance, both variables ranked as the most important variable when predicting the other. Given the context that this task is to predict latitude/longitude in neighboring buildings, each latitude value has only a relatively small range of longitude values. This may lead to the high importance score they appear to each other. Therefore, latitude and longitude values were taken out in predicting longitude and latitude. 
 
+The system processing time: RF - on average between 30m to 1h and KNN took much shorter time. By releveling floor number, improved results in R-squared were achieved.
+
+
 #### 6.1 Random Forest - predicting longitude 
 
 **Predicted vs. Actual Longitude Values - Random Forest Algorithm (BLD0, BLD1, BLD2)**
@@ -143,4 +146,25 @@ Random Forest regression algorithm and KNN regression algorithm were deployed in
 
 **Predicted vs. Actual Longitude Values - KNN Algorithm (BLD0, BLD1, BLD2)**
 
-<img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/KNN%20%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building 2.png"  width="30%" height="30%">  
+<img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/KNN%20%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%202.png"  width="30%" height="30%">  
+
+
+### 7. Summary
+
+The algorithm to be best for this data: Random Forest. 
+
+<img src="/images/summary_of_model_performance.png"  width="100%" height="100%">
+
+**Recommendations in how to improve results**
+
+- Further investigations should be take to look at how to achieve better results in predicting floor numbers in Building 1
+- Latitude and longitude prediction for Building 2: BLD 2’s data are disproportionate – more than 9000 observations in training dataset, but only around 200 in the validation dataset.
+- Random forest algorithm performed better in terms of accuracy and errors: 
+    * less false prediction in floor numbers
+    * latitude and longitude “combined” MAEs
+    <img src="/images/LAT_LON_combinedMAE.png"  width="100%" height="100%">
+
+- Im terms of running time: 
+    * KNN was in general faster – when RF models took on average 30mins above to run each one, KNN needed 15-30 mins to run. 
+some specific models were super faster and only took a few seconds to get results.
+In addition, RF's mtry were set to be around 160 and 200 when predicting latitude and longitude with Random Forest regression, which could lead to model overfit – this should be investigated when time allows. 
