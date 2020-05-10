@@ -143,4 +143,4 @@ Random Forest regression algorithm and KNN regression algorithm were deployed in
 
 **Predicted vs. Actual Longitude Values - KNN Algorithm (BLD0, BLD1, BLD2)**
 
-<img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%202.png"  width="30%" height="30%">  
+<img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/KNN%20%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building 2.png"  width="30%" height="30%">  
