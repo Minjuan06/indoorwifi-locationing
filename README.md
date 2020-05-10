@@ -155,6 +155,7 @@ The algorithm to be best for this data: Random Forest.
 
 <img src="/images/summary_of_model_performance.png"  width="100%" height="100%">
 
+
 **Recommendations in how to improve results**
 
 - Further investigations should be take to look at how to achieve better results in predicting floor numbers in Building 1
@@ -168,3 +169,15 @@ The algorithm to be best for this data: Random Forest.
     * KNN was in general faster – when RF models took on average 30mins above to run each one, KNN needed 15-30 mins to run. 
 some specific models were super faster and only took a few seconds to get results.
 In addition, RF's mtry were set to be around 160 and 200 when predicting latitude and longitude with Random Forest regression, which could lead to model overfit – this should be investigated when time allows. 
+
+### 8. Learning experience to share
+
+Given that this project is part of the learning process, results and processes are not perfect due to time and resources limitation
+Consideration/further research and learning. I also share some learning experiece as below: 
+
+- Omitted variables – how can these variables impact the prediction when included: SPACEID, Relative position, User ID, etc. 
+- Investigating the potential over-fit of Random Forest algorithm 
+- Running time to be considered
+- Certain problem: e.g. why the errors of floor prediction is high in Building 1
+- It is a process of running and readjustiung – e.g. removing latitude, decision of how to subset data, etc.
+
