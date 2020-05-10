@@ -69,5 +69,15 @@ Parallel processing was set up.
 ### 4. Predicting bUilding ID
 
 KNN, Random Forest and Decision Tree C5.0 were deployed. Results can ben seen in below:
-![] <img src="/images/Kappa%20and%20Accuracy_3 models_BLD.png"  width="45%" height="45%">  ![] <img src="/images/Kappa%20and%20Accuracy_RF_floor%20by%20each%20BLD.png"  width="45%" height="45%">
 
+<img src="/images/Kappa%20and%20Accuracy_3 models_BLD.png"  width="45%" height="45%">  
+There is large amount of information that independent variables carry in this dataset, which can well explain why all models have very good results in terms of predicting Building IDs. 
+
+### 5. Predicting floor numbers
+
+In predicting floor numbers, subsetting  by each building AND 
+
+<img src="/images/Kappa%20and%20Accuracy_RF_floor%20by%20each%20BLD.png"  width="45%" height="45%">
+
+
+Confusion matrix of 
