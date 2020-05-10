@@ -130,4 +130,17 @@ Random Forest regression algorithm and KNN regression algorithm were deployed in
 
 **List of important variables in predicting latitude values (Random Forest)**
 
-<img src="/images/LATPredict_BLD0_RF_nolon.png"  width="30%" height="30%">  <img src="/images/LLATPredict_BLD1_RF_nolon.png"  width="30%" height="30%">  <img src="/images/LATPredict_BLD2_RF_nolon.png"  width="30%" height="30%">
+<img src="/images/LATPredict_BLD0_RF_nolon.png"  width="30%" height="30%">  <img src="/images/LATPredict_BLD1_RF_nolon.png"  width="30%" height="30%">  <img src="/images/LATPredict_BLD2_RF_nolon.png"  width="30%" height="30%">
+
+#### 6.3 KNN - predicting longitude 
+
+**Predicted vs. Actual Longitude Values - KNN Algorithm (BLD0, BLD1, BLD2)**
+
+<img src="/images/KNN%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/KNN%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/KNN%20nolat%20Predicted%20vs.%20Actual%20-%20Longitude%20in%20Building%202.png"  width="30%" height="30%">
+
+
+#### 6.4 KNN - predicting latitude 
+
+**Predicted vs. Actual Longitude Values - KNN Algorithm (BLD0, BLD1, BLD2)**
+
+<img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%200.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%201.png"  width="30%" height="30%">  <img src="/images/KNN%20nolon%20Predicted%20vs.%20Actual%20-%20Latitude%20in%20Building%202.png"  width="30%" height="30%">  
