@@ -81,7 +81,7 @@ There is large amount of information that independent variables carry in this da
 
 Random Forest and KNN algorithms have been employed in predicting floor numbers. In predicting floor numbers, the data was subset by each building. Nevertheless, an attempt has also been made to use all data without subsetting by building ID. The latter approach showed a slightly better result when predicting floor numbers in the Building 1 as shown in below group of confusion matrices.  
 
-**Confusion matrices of models (Random Forest)**
+**Confusion matrices of predicting floor numbers - using Random Forest**
 
 **<em>Confusion Matrix - subsetting data by building IDs (BLD0, BLD1, BLD2)</em>**
 
@@ -93,7 +93,7 @@ Random Forest and KNN algorithms have been employed in predicting floor numbers.
 <img src="/images/CM%20-%20prediction%20of%20floors%20with%20all%20buildings.png"  width="30%" height="30%"> 
 
 
-**Confusion matrices of models (KNN)**
+**Confusion matrices of predicting floor numbers - using KNN**
 
 **<em>Confusion Matrix - subsetting data by building IDs (BLD0, BLD1, BLD2)</em>**
 
@@ -102,10 +102,9 @@ Random Forest and KNN algorithms have been employed in predicting floor numbers.
 
 **<em>Confusion Matrix - without subsetting data</em>**
 
-<img src="/images/CKNN%20CM%20all%20BLDs%20floor%20prediction.png"  width="30%" height="30%"> 
-
+<img src="/images/KNN%20CM%20all%20BLDs%20floor%20prediction.png"  width="30%" height="30%"> 
 
 
 ### 6. Predicting latitude and longitude values
 
-Regression 
+Regression models, 
