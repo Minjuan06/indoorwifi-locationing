@@ -33,13 +33,13 @@ The 529 attributes contain the WiFi fingerprint, the coordinates where it was ta
 
 Preliminary exploration was performed as part of familiarization process.
 
-**3D-mapping the footprints**
+**The distribution and occurrences of WAPs**
 
 <img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_train.png"  width="240" height="190">   <img src="/images/Frequency%20of%20occurrence%20of%20WAPs%20values_valid.png"  width="240" height="190"> 
 
 <img src="/images/Frequency%20of%20occurence%20of%20WAPs%20both%20dt.png"  width="340" height="200"> 
 
-**The distribution and occurrences of WAPs**
+**3D-mapping the footprints**
 
 <img src="/images/3D%20indoor%20training.png"  width="240" height="240"> <img src="/images/3D%20indoor%20validation.png"  width="240" height="240">
 
@@ -71,13 +71,17 @@ Parallel processing was set up.
 KNN, Random Forest and Decision Tree C5.0 were deployed. Results can ben seen in below:
 
 <img src="/images/Kappa%20and%20Accuracy_3 models_BLD.png"  width="45%" height="45%">  
+
 There is large amount of information that independent variables carry in this dataset, which can well explain why all models have very good results in terms of predicting Building IDs. 
 
 ### 5. Predicting floor numbers
 
-In predicting floor numbers, subsetting  by each building AND 
+Random Forest was the chosen algorithm. In predicting floor numbers, the data was subset by each building. Nevertheless, an attempt has also been made to use all data without subsetting by building ID. The latter approach showed a slightly better result when predicting floor numbers in the Building 1 as shown in below group of confusion matrices.  
 
-<img src="/images/Kappa%20and%20Accuracy_RF_floor%20by%20each%20BLD.png"  width="45%" height="45%">
+**Confusion matrices of models**
+
+**<em>Confusion Matrix - subsetting data by building IDs</em>**
+<img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD0.png"  width="40%" height="40%">  <img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD1.png"  width="40%" height="40%">  <img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD2.png"  width="40%" height="40%">  
 
 
-Confusion matrix of 
+**<em>Confusion Matrix - all data</em>**
