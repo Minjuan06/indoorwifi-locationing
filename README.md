@@ -83,8 +83,10 @@ Random Forest was the chosen algorithm. In predicting floor numbers, the data wa
 
 **Confusion matrices of models**
 
-**<em>Confusion Matrix - subsetting data by building IDs</em>**
-<img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD0.png"  width="30%" height="30%">  <img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD1.png"  width="40%" height="40%">  <img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD2.png"  width="40%" height="40%">  
+**<em>Confusion Matrix - subsetting data by building IDs (BLD0, BLD1, BLD2)</em>**
+
+<img src="/images/CM%20-%20prediction%20of%20floors%20with%20data%20BLD0.png"  width="30%" height="30%">  <img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD1.png"  width="30%" height="30%">  <img src="/images/CM%20-%20prediction%20of%20floors%20with%20BLD2.png"  width="30%" height="30%">  
 
 
 **<em>Confusion Matrix - all data</em>**
+<img src="/images/CM%20-%20prediction%20of%20floors%20with%20all%20buildings.png"  width="30%" height="30%"> 
