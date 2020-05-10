@@ -93,6 +93,7 @@ Random Forest and KNN algorithms have been employed in predicting floor numbers.
 <img src="/images/CM%20-%20prediction%20of%20floors%20with%20all%20buildings.png"  width="30%" height="30%"> 
 
 
+
 **Confusion matrices of predicting floor numbers - using KNN**
 
 **<em>Confusion Matrix - subsetting data by building IDs (BLD0, BLD1, BLD2)</em>**
