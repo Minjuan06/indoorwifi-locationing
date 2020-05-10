@@ -60,7 +60,14 @@ A few actions have been taken in terms of data cleaning and transformation:
 
 The dataset is very large, so a key part of the process involves defining an approach to sampling the data. Decisions were made to use:
 
-- classification models to predict building numbers
-- regression models to predict floor, longitude and latitude values
+- classification models to predict building ID and floor numbers
+- regression models to predict longitude and latitude values by each building
 
-After revisiting and revising your process, you will build and test a range potential models that could work to find the location value you are required to find. As the data analyst you will need to make principled choices based on your past experiences. Potential candidates could include C5.0, SVM/SVR, KNN, LM, Model Trees, RandomForest, etc. but you will make the choices; be prepared to justify your decision, if asked. You must test at least three algorithms.
+Parallel processing was set up. 
+
+
+### 4. Predicting bUilding ID
+
+KNN, Random Forest and Decision Tree C5.0 were deployed. Results can ben seen in below:
+![] <img src="/images/Kappa%20and%20Accuracy_RF_floor%20by%20each%20BLD.png"  width="80%" height="80%">
+
