@@ -68,7 +68,7 @@ The dataset is very large, so a key part of the process involves defining an app
 Parallel processing was set up. 
 
 
-### 4. Predicting bUilding ID
+### 4. Predicting building ID
 
 KNN, Random Forest and Decision Tree C5.0 were deployed. Results can ben seen in below:
 
