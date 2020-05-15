@@ -6,7 +6,7 @@ The feasibility of using "wifi fingerprinting" is investigated to determine a pe
 
 This task also includes evaluations of multiple machine learning models to evaluate which produces the best result.
 
-## 1. Loading the data
+## 1. Loading the data and EDA
 Load the Indoor Locationing Dataset (http://archive.ics.uci.edu/ml/datasets/UJIIndoorLoc) into RStudio and study the data documentation. 
 
 **Dataset Info**
@@ -29,8 +29,6 @@ The 529 attributes contain the WiFi fingerprint, the coordinates where it was ta
 
 <img src="/images/Buildings_Wifi%20signals%20collected%20from.png"  width="80%" height="80%">
 
-
-### Performing EDA
 
 Preliminary exploration was performed as part of familiarization process.
 
